@@ -61,7 +61,7 @@ holiday_hash.each do |season, holiday|
     final += "#{supplies}: #{x.join(",")}" "\n"
   end
 end
-puts ("Winter:")
+# puts ("Winter:")
   puts final
 
 
