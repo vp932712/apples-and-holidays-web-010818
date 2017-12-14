@@ -62,7 +62,8 @@ holiday_hash.each do |season, holiday|
   end
 end
 
-  final
+  puts final
+  
 
 end
 
