@@ -91,35 +91,35 @@ describe "holiday_supplies_hash" do
 
   # Question 6
   # Write a method that uses a loop to list out all the supplies you have for each holiday and the season
-  describe "#all_supplies_in_holidays" do
-
-    # There are two ways we might go about outputting a big block of text. One way
-    # is to iterate through everything we want output, and puts it line by line. Another
-    # way is to build a large string, and puts it all at once. How you choose to do it
-    # is entirely up to you, and depends on what you think works best in any given
-    # situation.
-
-    before do
-
-    # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
-    # delimiter that makes it really easy for us to write multi-line strings in the middle
-    # of code. The TEXT part is arbitrary too. It could easily have been <<-BLAHBLAH. The only
-    # requirement is that you use the same word to end the multi-line string.
-
-    # For more info about heredocs, see this link: http://en.wikibooks.org/wiki/Ruby_Programming/Here_documents
-
-      @output = <<-TEXT
-Winter:
-  Christmas: Lights, Wreath
-  New Years: Party Hats
-Summer:
-  Fourth Of July: Fireworks, BBQ
-Fall:
-  Thanksgiving: Turkey
-Spring:
-  Memorial Day: BBQ
-TEXT
-    end
+#   describe "#all_supplies_in_holidays" do
+# 
+#     # There are two ways we might go about outputting a big block of text. One way
+#     # is to iterate through everything we want output, and puts it line by line. Another
+#     # way is to build a large string, and puts it all at once. How you choose to do it
+#     # is entirely up to you, and depends on what you think works best in any given
+#     # situation.
+# 
+#     before do
+# 
+#     # This funny looking <<-TEXT thing is called heredoc. It's a multi-line string
+#     # delimiter that makes it really easy for us to write multi-line strings in the middle
+#     # of code. The TEXT part is arbitrary too. It could easily have been <<-BLAHBLAH. The only
+#     # requirement is that you use the same word to end the multi-line string.
+# 
+#     # For more info about heredocs, see this link: http://en.wikibooks.org/wiki/Ruby_Programming/Here_documents
+# 
+#       @output = <<-TEXT
+# Winter:
+#   Christmas: Lights, Wreath
+#   New Years: Party Hats
+# Summer:
+#   Fourth Of July: Fireworks, BBQ
+# Fall:
+#   Thanksgiving: Turkey
+# Spring:
+#   Memorial Day: BBQ
+# TEXT
+#     end
 
     # For the purposes of this test, we are assuming that you decided to output your list
     # of holiday supplies line by line. If, on the other hand, you decided to output it
